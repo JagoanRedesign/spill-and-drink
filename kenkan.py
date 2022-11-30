@@ -32,9 +32,10 @@ bot = Client("kontolbot",
             bot_token=BOT_TOKEN)
             
 print("Bot sudah siap di gunakan")
-# spill text
-SPILLS = [
- "Orang bilang jadi penyair itu susah Nggak Mereka belum jatuh cinta aja",
+
+# bucin text
+BUCIN = [
+  "Orang bilang jadi penyair itu susah Nggak Mereka belum jatuh cinta aja",
   "Kalau misal aku lahir seribu tahun yang lalu, aku pasti akan tetap menunggumu",
   "Kamu tau gak, kenapa kalo belajar menghafal aku selalu melihat ke atas? Soalnya kalo merem langsung kebayang wajah kamu",
   "Aneh rasanya bagaimana dengan hanya mendengar namamu saja, hatiku bisa tersayat teriris ngilu seperti luka basah yang tersiram cuka?",
@@ -401,98 +402,138 @@ SPILLS = [
   "Cukup antartika aja yang jauh Antarkita jangan",
 ]
 
-# drink
-DRINKS = [
- "https://telegra.ph/file/138625bd10764fb4a095f.jpg",
- "https://telegra.ph/file/131957d3e688441cc9b3f.jpg",
- "https://telegra.ph/file/62a9e59207d711400868a.jpg",
- "https://telegra.ph/file/2dfe5ebf60541e17ff2fe.jpg",
- "https://telegra.ph/file/cf99b72ae0d5b543c465b.jpg",
- "https://telegra.ph/file/f375b1fd0379b51a45fec.jpg",
- "https://telegra.ph/file/c591a9074b06a6686d41c.jpg",
-]
 
-
-SPILLX = [
-"di setiap kelebihan pasti ada kembalian",
-"cobaan memang banyak kalo dikit itu cobain",
-"kalau orang lain bisa mengapa harus saya, kalau orang lain gak bisa apalagi saya",
-"lebih baik menjauh daripada tersakiti begitulah caraku menggoreng ikan",
-"sholat itu 5 waktu, bukan kalo ada waktu",
-"tetaplah membalas budi, walau budi nggak salah",
-"jika kamu bilang cari duit itu sulit, percayalah,nagih utang jauh lebih sulit",
-"jika hidupmu malang, cobalah ke Bali",
-"ke masjid itu sampai tua bukan nunggu tua",
-"ingat kawan sakit gigi dan sakit hati berawal dari yang 'manis manis'",
-"kesempatan tidak datang 2 kali kecuali remedial",
-"hidup cuman sekali kalo dua kali namanya hidup-hidup",
-"kalian mau tau kenapa pria sejati itu kebanyakan sibuk?  ok nanti aku jelasin, lagi sibuk soalnya.",
-"sibuk mencari kesibukan yang tidak menyibukan",
-"masa depan mu tidak secerah 'hp bapakku'",
-"disaat masalah tidak ada jalan keluarnya, maka kita yang keluar jalan-jalan",
-"Pekerjaan akan lebih mudah jika tidak dikerjakan",
-"Istiqomah itu berat, yang ringan mah istirahat.",
-"dunia ini berputar, pantesan saya pusing",
-"Hidup itu berjalan kalo capek naik gojek aja",
-"dunia punya cerita yg cerita bukan saya",
-"ingin tidak mau jadi beban keluarga yaa keluar kk",
-"'sesuatu yang berlebihan itu tidak baik kecuali' uang",
-"cinta itu hanya bertepuk sebelah tangan, kalau tepuk dua tangan jadi tepuk pramuka",
-"kalau pekerjaan mu berat cari lah yg ringan",
-"anda punya masalah Ya itu bukan urusan saya, karena klau saya ikut akan jadi masalah buat saya",
-"bermimpi adalah hal terbaik, maka dari itu saya sering tidur.",
-"ibu dan bapak kalian nikah di tanggal yang sama",
-"diam tidak akan menyelesaikan masalah, tapi diam juga tidak membuat masalah",
-"jika kamu gagal jadi orang sukses. tenanglah. setidaknya kamu telah sukses jadi orang gagal.",
-"aku tulus, tapi aku gabisa nyanyi",
-"hidup memang banyak ujian , kalau banyak cucian itu Laundry",
-"pengen ngejar mimpi tapi males lari",
-"tanpa kalian sadari,kalian itu udah sadar",
-"kalau roda bisa berhenti kenapa harus berputar?",
-"jika kamu gagal maka cobalah lagi, siapa tau gagal lagi",
-"kamu tau kiko? Enak tau",
-"prot² lebih menyenangkan dari pada janji kawan",
-"Hari ini dan esok harinya untuk kita berdua , tapi hari selanjutnya untuk siapa?",
-"aku cuma punya motor supra, kalo kamu suka sama ninja. sama aku juga",
-"jadilah murid teladan, datangnya telat pulang duluan",
-"penyesalan itu di akhir kalo di awal itu pendaftaran",
-"didewasakan oleh film dewasa",
-"jangan ngurusin saya, saya udah kurus",
-"tanpa saya, warga Indonesia kurang satu",
-"menyukai tidak harus memiliki, itulah caraku melihat shopee",
-"dikuburan itu sepi, kalo rame lanjut part 2",
+# renungan
+RENUNGAN = [ 
+    "https://telegra.ph/file/f52f8d6312f3ac2590727.jpg", 
+    "https://telegra.ph/file/35cb9decc525a3453ba87.jpg",
+    "https://telegra.ph/file/5996566cb5cd615f60f51.jpg",
+    "https://telegra.ph/file/87ecb0f385ae390c609e8.jpg",
+    "https://telegra.ph/file/7ca48dd2329937b7f86da.jpg", 
+    "https://telegra.ph/file/e2d603fa0ec9004ca9e2f.jpg",
+    "https://telegra.ph/file/f8f9ac3d38c9e3c9456ec.jpg",
+    "https://telegra.ph/file/9e1f626f4005b6f16d904.jpg",
+    "https://telegra.ph/file/6300478b6ffdf0c0001e9.jpg",
+    "https://telegra.ph/file/dca222749fb98ce0384f7.jpg",
+    "https://telegra.ph/file/295f6f6164794a2156d2e.jpg",
+    "https://telegra.ph/file/429cb39112f2870327398.jpg",
+    "https://telegra.ph/file/9d96d5fcc89c6f30e086f.jpg",
+    "https://telegra.ph/file/c396c9da3800536792139.jpg",
+    "https://telegra.ph/file/6d2fc9ac5c878fa93c43f.jpg",
+    "https://telegra.ph/file/09174bfbe94a756a90411.jpg",
+    "https://telegra.ph/file/2dcd363e5f9eb42d88cc0.jpg",
+    "https://telegra.ph/file/798daf4f7a87bbabc8694.jpg",
+    "https://telegra.ph/file/4052c388390385d9c79f3.jpg", 
+    "https://telegra.ph/file/d8f1a14f712d6a860b36c.jpg",
+    "https://telegra.ph/file/eed16ec2df3cc22102e7b.jpg",
+    "https://telegra.ph/file/0738833300f1620285b36.jpg",
+    "https://telegra.ph/file/dc464f93b5a579c279979.jpg",
+    "https://telegra.ph/file/0e0aa4e97675b2e649ddc.jpg",
+    "https://telegra.ph/file/2b58e9e63b38ac837e8cd.jpg",
+    "https://telegra.ph/file/49029a0e94ee5d710b6a9.jpg",
+    "https://telegra.ph/file/3a1ecc7774208670ec781.jpg",
+    "https://telegra.ph/file/46a125a6a3dc13cee931e.jpg",
+    "https://telegra.ph/file/37c358438489180b48723.jpg",
+    "https://telegra.ph/file/6287bc3f9b7876aeb5554.jpg",
+    "https://telegra.ph/file/684f268210c2de5d44bc6.jpg",
+    "https://telegra.ph/file/166b0d7fd1fcc55a09449.jpg",
+    "https://telegra.ph/file/f6713bdd595530bb38df9.jpg",
+    "https://telegra.ph/file/6738bff78091aa85a6cd7.jpg",
+    "https://telegra.ph/file/370d394c23fd162c6c9be.jpg",
+    "https://telegra.ph/file/38f2ceb0daf966fe7ddcf.jpg",
+    "https://telegra.ph/file/d23c4cedab7bf64915ba2.jpg",
+    "https://telegra.ph/file/3e72698c996538ee50ccf.jpg",
+    "https://telegra.ph/file/0379370add3bbae122008.jpg",
+    "https://telegra.ph/file/873d1b18acf16088786ca.jpg",
+    "https://telegra.ph/file/823e0664c7edec135b847.jpg",
+    "https://telegra.ph/file/8c8da910ab52c7a2b7ccf.jpg",
+    "https://telegra.ph/file/8037b52b84e8c39060f89.jpg",
+    "https://telegra.ph/file/e6da062c873aca03d25d4.jpg",
+    "https://telegra.ph/file/ef307b95c45e77defd0e1.jpg",
+    "https://telegra.ph/file/d66123bde1e967adf72b9.jpg",
+    "https://telegra.ph/file/7a2a376d1d152d382ae1a.jpg",
+    "https://telegra.ph/file/f8d0253bb97ea30e04275.jpg",
+    "https://telegra.ph/file/bbe65705f8dc9558eb177.jpg",
+    "https://telegra.ph/file/c7530031da08b4441ee9f.jpg",
+    "https://telegra.ph/file/5c1f7320f1b457911c3c2.jpg",
+    "https://telegra.ph/file/5a8600f4651e9497f6562.jpg",
+    "https://telegra.ph/file/053032e59ced4dac9ed3d.jpg",
+    "https://telegra.ph/file/ef61d077b685d47a11ff0.jpg",
+    "https://telegra.ph/file/c8a5cc9b9da57299a1f25.jpg",
+    "https://telegra.ph/file/2ed057545501fc3bc8de0.jpg",
+    "https://telegra.ph/file/b3b7c0c22e7dba04cab03.jpg",
+    "https://telegra.ph/file/62579a62376550e6590b1.jpg",
+    "https://telegra.ph/file/d140b0791799af2f67315.jpg",
+    "https://telegra.ph/file/81fd213f74b1235ef18fc.jpg",
+    "https://telegra.ph/file/d00db1507843f4ead46d8.jpg",
+    "https://telegra.ph/file/dedfa2294f4eb845acac4.jpg",
+    "https://telegra.ph/file/2b3700178b39c9c01e9b4.jpg",
+    "https://telegra.ph/file/a7be3d06c7dd9b8475579.jpg",
+    "https://telegra.ph/file/f7d91295ec35c44af8c90.jpg",
+    "https://telegra.ph/file/01e42d9181311dd7d2d70.jpg",
+    "https://telegra.ph/file/e5cf6db288acbfbb13f2b.jpg",
+    "https://telegra.ph/file/5a6ee797141b96fcebcce.jpg",
+    "https://telegra.ph/file/88d5b22d7a40365f59fc4.jpg",
+    "https://telegra.ph/file/0de4de20e35f6c9b12af6.jpg",
+    "https://telegra.ph/file/6b60a05a32e7bdbb62c2d.jpg",
+    "https://telegra.ph/file/549e5a1dbd0aebbd909c6.jpg",
+    "https://telegra.ph/file/d9d0c658ef1ea088d3579.jpg",
+    "https://telegra.ph/file/4c8fa9809897b7bd3eb03.jpg",
+    "https://telegra.ph/file/a58ee2c51fdc6c78ed7f6.jpg",
+    "https://telegra.ph/file/f2253a885cb84af5d588c.jpg",
+    "https://telegra.ph/file/f17bd255b176da6943240.jpg",
+    "https://telegra.ph/file/279afb02b1fcf93abdae4.jpg",
+    "https://telegra.ph/file/8ba4a8f31cf0673f6aa87.jpg",
+    "https://telegra.ph/file/c842818563065460b022e.jpg",
+    "https://telegra.ph/file/99e10142aeef70961437a.jpg",
+    "https://telegra.ph/file/33da8321603f78cd165f4.jpg",
+    "https://telegra.ph/file/63678732998176b22fa96.jpg",
+    "https://telegra.ph/file/b79bb874be90a34cd5786.jpg",
+    "https://telegra.ph/file/148875b883f91ac8b42e6.jpg",
+    "https://telegra.ph/file/275d948e0ed99652b4c52.jpg",
+    "https://telegra.ph/file/dbfa4e1043d1bbc9441b2.jpg",
+    "https://telegra.ph/file/1ab030093aea5937e0468.jpg",
+    "https://telegra.ph/file/b5b64e5e5ee0df73bc5b5.jpg",
+    "https://telegra.ph/file/a7032cdd783d8f1656424.jpg",
+    "https://telegra.ph/file/5ea4218fedab8e124496b.jpg",
+    "https://telegra.ph/file/0e0fef10d278f886a5f4a.jpg",
+    "https://telegra.ph/file/09e81d73081d6f2811ca3.jpg",
+    "https://telegra.ph/file/816866bef7a307029e6b6.jpg",
+    "https://telegra.ph/file/5b5736027ae57a787d00c.jpg",
+    "https://telegra.ph/file/68899ab649fa4711905ce.jpg",
+    "https://telegra.ph/file/47b0c825cdf8ebaa90a05.jpg",
+    "https://telegra.ph/file/06aaa229521191de3895e.jpg",
+    "https://telegra.ph/file/68551e562c4e343efd965.jpg",
+    "https://telegra.ph/file/9487c11c728cd279b8da3.jpg",
 ]
 
            
 @bot.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
-    await message.reply(f"Selamat bermain dan selamat ter spill!\n\nJangan lupa subs @{CHANNEL} dan contact @{OWNER} untuk info lainnya.\n\nNote : khusus RL bukan RP")
+    await message.reply(f"Selamat bermain dan selamat bersenang - senang\n\nJangan lupa subs @{CHANNEL} dan contact @{OWNER} untuk info lainnya.\n\nBy : @gendhis_gemooy")
     
 @bot.on_message(filters.command("help"))
 async def help_message(client: Client, message: Message):
-    await message.reply("/spill - spill dulu\n/drink - minum dulu\n/donasi - donasi ke owner bot\n/request - request spill bikinan mu")
+    await message.reply("/bucin - bucin dulu\n/renungan - renungan dulu\n/donasi - donasi ke owner bot\n/request - request kamu")
 
-@bot.on_message(filters.command("spill"))
-async def spill(client: Client, message: Message):
-    await message.reply(choice(SPILLS))
     
+@bot.on_message(filters.command("bucin"))
+async def bucin(client: Client, message: Message):
+    await message.reply(choice(BUCIN))
     
-    @bot.on_message(filters.command("spillx"))
-async def spillx(client: Client, message: Message):
-    await message.reply(choice(SPILLX))
-    
-@bot.on_message(filters.command("drink"))
-async def drink(client: Client, message: Message):
-    await message.reply_photo(choice(DRINKS))
+  
+@bot.on_message(filters.command("renungan"))
+async def renungan(client: Client, message: Message):
+    await message.reply_photo(choice(RENUNGAN))
 
 @bot.on_message(filters.command("donasi"))
 async def donasi(client: Client, message: Message):
-    await message.reply(f"Bagi yang punya duit penuh, atau berlebih bisa kali di transfer ke @{OWNER}")
+    await message.reply(f"Yuk Support Bot Gendhis Dengan Cara Donasi\nDukung Gendhis Bot agar dapat selalu berkembang dan dapat membayar biaya server bot dengan cara donasi. sedikit bantuan dari anda sangat berharga.\ncontact : @{OWNER}")
     
 @bot.on_message(filters.command("request"))
 async def request(client: Client, message: Message):
     if len(message.command) < 2:
-         return await message.reply("contoh = `/request spill photo mantan kamu`")
+         return await message.reply("contoh = `/request Cukup China aja yang jauh, cinta kita jangan`")
     mmk = message.command[1:]
     kontol = " ".join(mmk)
     await bot.send_message(LOG_CHAT, f"{message.from_user.mention}\nPesan: `{kontol}`")
@@ -500,6 +541,6 @@ async def request(client: Client, message: Message):
     
 @bot.on_message(filters.command("repo"))
 async def repos(client: Client, message: Message):
-    await message.reply("[SPILL AND DRINK](https://github.com/BukanDev/spill-and-drink)\nCek aja udah bisa di deploy di heroku")
+    await message.reply("[SPILL AND DRINK](https://github.com/)\nCek aja udah ada di Github")
 
 bot.run()
