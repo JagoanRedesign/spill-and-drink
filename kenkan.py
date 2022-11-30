@@ -34,50 +34,7 @@ bot = Client("kontolbot",
 print("Bot sudah siap di gunakan")
 # spill text
 SPILLS = [
- "Spill makanan yang belum pernah lu makan sama sekali",
- "spill yang paling ngeselin",
- "Spill lagu indo fav",
- "Spill orang yang bikin kamu terkesima setiap saat",
- "Spill mantan cp kamu",
- "spill rc telegram",
- "spill kelakukan paling memalukan pas masih kecil",
- "Spill Adek kelas yg ganteng",
- "spill kenapa kamu selalu ngedahuluin orang lain daripada diri kamu sendiri?",
- "spill kejadian memalukan",
- "siapa yg sering ngajak gelud?",
- "Spill pengalaman terhoror",
- "spill kang ghosting",
- "spill nama org org tersayang",
- "Spill orang yang pernah bully lu!",
- "spill chat terakhir kali sama mantan",
- "Pengalaman teraneh",
- "spill siapa org yang paling lu benci di gc",
- "Spill pernah jadian sama kating?",
- "spill chat waktu lu diputusin",
- "Spill menunggu atau menanti?",
- "spesial song buat seseorang? spill ke gc dan tag orangnya !",
- "Spill alamat rumah",
- "Spill tentang mantan",
- "spill nama panggilan klian disekolah",
- "spill orang terjamet",
- "Sebutin film/drama/series/anime yang jadi fav kamu",
- "spill hal yang dikangenin dari mantan",
- "spill warna rambut yang pengen dicoba",
- "spill orang yg paling ditakuti buat pergi",
- "spill tukang boong",
- "Spill hal yang lagi lo pikirin sekarang",
- "spill theme telegram",
- "spill nama depan org yg lagi lu sukain sekarang",
- "Spill yang selalu bikin kamu gemes dengan kelakuannya",
- "spiil id tik tok lu",
- "Sapa, orang yang paling berkesan pas kelas 6 SD??",
- "spill orang paling dongo",
- "spill kelakuan cp yang suka bikin cemburu",
- "spill crush yg ga peka²",
-]
-# bucin text
-BUCIN = [
-  "Orang bilang jadi penyair itu susah Nggak Mereka belum jatuh cinta aja",
+ "Orang bilang jadi penyair itu susah Nggak Mereka belum jatuh cinta aja",
   "Kalau misal aku lahir seribu tahun yang lalu, aku pasti akan tetap menunggumu",
   "Kamu tau gak, kenapa kalo belajar menghafal aku selalu melihat ke atas? Soalnya kalo merem langsung kebayang wajah kamu",
   "Aneh rasanya bagaimana dengan hanya mendengar namamu saja, hatiku bisa tersayat teriris ngilu seperti luka basah yang tersiram cuka?",
@@ -443,6 +400,7 @@ BUCIN = [
   "Aku tanpamu bagaikan ambulans tanpa wiuw wiuw wiuw",
   "Cukup antartika aja yang jauh Antarkita jangan",
 ]
+
 # drink
 DRINKS = [
  "https://telegra.ph/file/138625bd10764fb4a095f.jpg",
@@ -468,11 +426,6 @@ async def help_message(client: Client, message: Message):
 @bot.on_message(filters.command("spill"))
 async def spill(client: Client, message: Message):
     await message.reply(choice(SPILLS))
-    
-    
-    @bot.on_message(filters.command("bucin"))
-async def bucin(client: Client, message: Message):
-    await message.reply(choice(BUCIN))
     
 @bot.on_message(filters.command("drink"))
 async def drink(client: Client, message: Message):
