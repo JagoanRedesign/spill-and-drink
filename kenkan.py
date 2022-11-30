@@ -412,8 +412,8 @@ DRINKS = [
  "https://telegra.ph/file/c591a9074b06a6686d41c.jpg",
 ]
 
-# motivasi text
-MOTIVASI = [
+
+SPILLX = [
 "di setiap kelebihan pasti ada kembalian",
 "cobaan memang banyak kalo dikit itu cobain",
 "kalau orang lain bisa mengapa harus saya, kalau orang lain gak bisa apalagi saya",
@@ -477,9 +477,9 @@ async def spill(client: Client, message: Message):
     await message.reply(choice(SPILLS))
     
     
-    @bot.on_message(filters.command("motivasi"))
-async def motivasi(client: Client, message: Message):
-    await message.reply(choice(MOTIVASI))
+    @bot.on_message(filters.command("spillx"))
+async def spillx(client: Client, message: Message):
+    await message.reply(choice(SPILLX))
     
 @bot.on_message(filters.command("drink"))
 async def drink(client: Client, message: Message):
