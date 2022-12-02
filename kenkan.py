@@ -519,15 +519,15 @@ MOTIVASI = [
            
 @bot.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
-    await message.reply(f"Selamat bermain dan selamat bersenang - senang\n\nJangan lupa subs @{CHANNEL} dan contact @{OWNER} untuk info lainnya.\n\nBy : @gendhis_gemooy")
+    await message.reply(f"<b>Selamat bermain bersama Gendhis</b>\n\nJangan lupa subs @{CHANNEL} dan contact @{OWNER} untuk info lainnya.\n\nMaintenance : @gendhis_gemooy")
     
 @bot.on_message(filters.command("help"))
 async def help_message(client: Client, message: Message):
-    await message.reply("/bucin - bucin dulu\n/renungan - renungan dulu\n/donasi - donasi ke owner bot\n/request - request kamu")
+    await message.reply("/gombal - gombal dulu\n/motivasi - motivasi dulu\n/donasi - donasi ke owner bot\n/request - request kamu")
 
     
-@bot.on_message(filters.command("bucin"))
-async def bucin(client: Client, message: Message):
+@bot.on_message(filters.command("gombal"))
+async def gombal(client: Client, message: Message):
     await message.reply(choice(BUCIN))
     
   
@@ -537,7 +537,7 @@ async def motivasi(client: Client, message: Message):
 
 @bot.on_message(filters.command("donasi"))
 async def donasi(client: Client, message: Message):
-    await message.reply(f"Yuk Support Bot Gendhis Dengan Cara Donasi\nDukung Gendhis Bot agar dapat selalu berkembang dan dapat membayar biaya server bot dengan cara donasi. sedikit bantuan dari anda sangat berharga.\ncontact : @{OWNER}")
+    await message.reply(f"<b>Yuk Support Bot Gendhis Dengan Cara Donasi</b>\n\nDukung Bot Gendhis agar dapat selalu berkembang dan dapat membayar biaya server bot dengan cara donasi. sedikit bantuan dari anda sangat berharga.\n\n<b>contact</b> : @{OWNER}")
     
 @bot.on_message(filters.command("request"))
 async def request(client: Client, message: Message):
@@ -548,8 +548,5 @@ async def request(client: Client, message: Message):
     await bot.send_message(LOG_CHAT, f"{message.from_user.mention}\nPesan: `{kontol}`")
     await message.reply("Terimakasih telah berkontribusi untuk kami")
     
-@bot.on_message(filters.command("repo"))
-async def repos(client: Client, message: Message):
-    await message.reply("[SPILL AND DRINK](https://github.com/)\nCek aja udah ada di Github")
 
 bot.run()
