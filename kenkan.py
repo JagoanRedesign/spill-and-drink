@@ -403,58 +403,256 @@ BUCIN = [
 ]
 
 
-# renungan text
-RENUNGAN = [
-  "Orang bilang jadi penyair itu susah Nggak Mereka belum jatuh cinta aja",
-  "Kalau misal aku lahir seribu tahun yang lalu, aku pasti akan tetap menunggumu",
-  "Kamu tau gak, kenapa kalo belajar menghafal aku selalu melihat ke atas? Soalnya kalo merem langsung kebayang wajah kamu",
-  "Aneh rasanya bagaimana dengan hanya mendengar namamu saja, hatiku bisa tersayat teriris ngilu seperti luka basah yang tersiram cuka?",
-  "Kalau jadi ksatria itu gampang Yang susah itu jadi pahlawan hati kamu",
-  "Kalau pahlawan punya baju besi, aku nggak Soalnya aku rela tertusuk cinta kamu",
-  "Ketika kamu telah membuatnya bahagia dan dia masih memilih orang lain, yakinlah Mungkin kamu belum kaya!",
-  "Kamu seperti pensil warna deh, bisa mewarnai hari-hariku",
-  "Kalo kamu bidadari, akan kupatahkan semua sayapmu karena aku gak rela kamu kembali ke surga",
-  "Pahlawan itu kan mereka yang berjuang buat negara, berarti aku juga pahlawan dong, soalnya merjuangin masa depan kita",
-  "Kamu itu kayak pahlawan ya, hebat meruntuhkan pertahanan hatiku",
-  ]
-  
+
   # motivasi text
 MOTIVASI = [
-  "Orang bilang jadi penyair itu susah Nggak Mereka belum jatuh cinta aja",
-  "Kalau misal aku lahir seribu tahun yang lalu, aku pasti akan tetap menunggumu",
-  "Kamu tau gak, kenapa kalo belajar menghafal aku selalu melihat ke atas? Soalnya kalo merem langsung kebayang wajah kamu",
-  "Aneh rasanya bagaimana dengan hanya mendengar namamu saja, hatiku bisa tersayat teriris ngilu seperti luka basah yang tersiram cuka?",
-  "Kalau jadi ksatria itu gampang Yang susah itu jadi pahlawan hati kamu",
-  "Kalau pahlawan punya baju besi, aku nggak Soalnya aku rela tertusuk cinta kamu",
-  "Ketika kamu telah membuatnya bahagia dan dia masih memilih orang lain, yakinlah Mungkin kamu belum kaya!",
-  "Kamu seperti pensil warna deh, bisa mewarnai hari-hariku",
-  "Kalo kamu bidadari, akan kupatahkan semua sayapmu karena aku gak rela kamu kembali ke surga",
-  "Pahlawan itu kan mereka yang berjuang buat negara, berarti aku juga pahlawan dong, soalnya merjuangin masa depan kita",
-  "Kamu itu kayak pahlawan ya, hebat meruntuhkan pertahanan hatiku",
+"di setiap kelebihan pasti ada kembalian",
+"cobaan memang banyak kalo dikit itu cobain",
+"kalau orang lain bisa mengapa harus saya, kalau orang lain gak bisa apalagi saya",
+"lebih baik menjauh daripada tersakiti begitulah caraku menggoreng ikan",
+"sholat itu 5 waktu, bukan kalo ada waktu",
+"tetaplah membalas budi, walau budi nggak salah",
+"jika kamu bilang cari duit itu sulit, percayalah,nagih utang jauh lebih sulit",
+"jika hidupmu malang, cobalah ke Bali",
+"ke masjid itu sampai tua bukan nunggu tua",
+"ingat kawan sakit gigi dan sakit hati berawal dari yang 'manis manis'",
+"kesempatan tidak datang 2 kali kecuali remedial",
+"hidup cuman sekali kalo dua kali namanya hidup-hidup",
+"kalian mau tau kenapa pria sejati itu kebanyakan sibuk?  ok nanti aku jelasin, lagi sibuk soalnya.",
+"sibuk mencari kesibukan yang tidak menyibukan",
+"masa depan mu tidak secerah 'hp bapakku'",
+"disaat masalah tidak ada jalan keluarnya, maka kita yang keluar jalan-jalan",
+"Pekerjaan akan lebih mudah jika tidak dikerjakan",
+"Istiqomah itu berat, yang ringan mah istirahat.",
+"dunia ini berputar, pantesan saya pusing",
+"Hidup itu berjalan kalo capek naik gojek aja",
+"dunia punya cerita yg cerita bukan saya",
+"ingin tidak mau jadi beban keluarga yaa keluar kk",
+"'sesuatu yang berlebihan itu tidak baik kecuali' uang",
+"cinta itu hanya bertepuk sebelah tangan, kalau tepuk dua tangan jadi tepuk pramuka",
+"kalau pekerjaan mu berat cari lah yg ringan",
+"anda punya masalah Ya itu bukan urusan saya, karena klau saya ikut akan jadi masalah buat saya",
+"bermimpi adalah hal terbaik, maka dari itu saya sering tidur.",
+"ibu dan bapak kalian nikah di tanggal yang sama",
+"diam tidak akan menyelesaikan masalah, tapi diam juga tidak membuat masalah",
+"jika kamu gagal jadi orang sukses. tenanglah. setidaknya kamu telah sukses jadi orang gagal.",
+"aku tulus, tapi aku gabisa nyanyi",
+"hidup memang banyak ujian , kalau banyak cucian itu Laundry",
+"pengen ngejar mimpi tapi males lari",
+"tanpa kalian sadari,kalian itu udah sadar",
+"kalau roda bisa berhenti kenapa harus berputar?",
+"jika kamu gagal maka cobalah lagi, siapa tau gagal lagi",
+"kamu tau kiko? Enak tau",
+"prot² lebih menyenangkan dari pada janji kawan",
+"Hari ini dan esok harinya untuk kita berdua , tapi hari selanjutnya untuk siapa?",
+"aku cuma punya motor supra, kalo kamu suka sama ninja. sama aku juga",
+"jadilah murid teladan, datangnya telat pulang duluan",
+"penyesalan itu di akhir kalo di awal itu pendaftaran",
+"didewasakan oleh film dewasa",
+"jangan ngurusin saya, saya udah kurus",
+"tanpa saya, warga Indonesia kurang satu",
+"menyukai tidak harus memiliki, itulah caraku melihat shopee",
+"dikuburan itu sepi, kalo rame lanjut part 2",
+
+"Kerja keraslah sampai tetangga berpikir rezekimu hasil dari pesugihan.",
+"Berhentilah mencari orang yang sempurna. Cukup cari orang yang punya uang, mobil, dan rumah.",
+"Sukses berawal dari mimpi. Oleh karena itu mari kita perbanyak tidur.",
+"Kamu tidak butuh kata-kata motivasi, yang kamu butuhkan adalah kata 'diskon besar-besaran'.",
+"Jangan mengulangi kesalahan yang sama. Masih banyak kesalahan-kesalahan lain yang perlu dicoba.,
+"Di mana ada kesempatan, di situ ada dana umum.",
+"Namanya juga hidup. Pasti banyak cobaan. Kalau banyak cucian ya laundry.",
+"Masalah bisa membuat kita semakin dewasa, maka sering-seringlah bermasalah.",
+"Kalau mau punya pasangan yang bisa bikin hidup kamu bergelimang harta, jangan cari pasangan, carilah pesugihan.",
+"Betapa banyak manusia yang masih hidup dalam kelalaian. Sedangkan kain kafannya sedang ditenun.",
+"Pengetahuan itu seperti pakaian dalam, jika memang kamu punya tak usah dipamerkan.",
+"Kepada matematika, dewasalah dan selesaikan persoalanmu sendiri. Aku sudah lelah menyelesaikan masalahmu.",
+"Sekali mendayung, dua tiga hari pegelnya nggak ilang-ilang.",
+"Saat hidup menutup pintu untukmu, buka lagi saja. Itu hanya pintu, itulah cara kerjanya.",
+ "Jangan meresapi sebuah kegagalan. Meres baju aja capeknya minta ampun, apalagi meres-sapi.",
+"Sabar aja lah ya, hati kamu itu kan kaya tango. Berapa lapis? Ratusan.",
+ "Diam tak akan menyelesaikan masalah, tapi diam juga tak akan menimbulkan masalah.",
+"Belajar dari bulu ketek walaupun selalu terhimpit tapi tetap tegar bertahan dan tetap tumbuh.",
+ "Seberat apa pun masalahmu, jangan ditimbang. Nggak bakalan laku.",
+"Sahabat super, jika ingin terlihat ganteng, bergaullah dengan orang jelek.",
+ "Cinderella adalah bukti bahwa sepasang sepatu baru dapat mengubah hidupmu.",
+"Hormati orang tuamu. Mereka lulus sekolah tanpa Google.",
+"Ketika hidup menempatkanmu dalam situasi yang sulit, jangan katakan 'Mengapa saya?', katakan 'Cobalah saya'.",
+"Saya ingin menjadi seperti ulat. Makan banyak. Tidur sebentar. Bangun cantik.",
+"Bekerjalah sampai rekening bankmu terlihat seperti nomor telepon.",
+"Jika kamu tidak merancang rencana hidupmu sendiri, kemungkinan besar kamu akan jatuh ke dalam rencana orang lain. Dan coba tebak apa yang mereka rencanakan untukmu? Tidak banyak.",
+"Kerja tim berarti tidak pernah harus menanggung semua kesalahan sendiri.",
+"Berpikirlah seperti proton. Selalu positif.",
+"Jadi ternyata menjadi dewasa sebenarnya hanya Googling bagaimana melakukan sesuatu.",
+"Tidak semua badai datang untuk mengganggu hidupmu. Beberapa datang untuk membersihkan jalanmu.",
+"Jalan menuju sukses dipenuhi banyak tempat parkir yang menggoda.",
+"Hidup adalah seni menggambar tanpa penghapus.",
+"Kebahagiaan hanyalah kesedihan yang belum terjadi.",
+"Jika ukuran benar-benar penting, gajah sudah lama menjadi raja hutan.",
+"Hidup bergerak sangat cepat. Jika kamu tidak berhenti dan melihat-lihat sesekali, kamu bisa melewatkannya.",
+ "Tidur siang terdengar sangat kekanak-kanakan. Aku lebih suka menyebutnya jeda kehidupan horizontal.",
+"Kamu tidak bisa membuat semua orang bahagia. Kamu bukan cokelat.",
+"Hidup itu seperti sebuah acara televisi yang sangat panjang tanpa remote control.",
+"Jika kamu merasa kesepian, matikan lampu dan tontonlah film horor. Maka kamu tidak akan merasakan kesepian lagi.",
+ "Tuhan, tolong beri aku kesabaran. Kalau Engkau beri aku kekuatan, mungkin aku akan memukul orang itu tepat di wajahnya.",
+ "Sabar memang sulit karena hadiahnya surga. Coba kalau gampang, paling hadiahnya payung.",
+"Tidak ada yang abadi, kecuali perubahan dan pengeluaran.",
+"Duit memang nggak dibawa mati. Tapi kalau nggak ada duit, berasa mau mati.",
+"Hidup itu sudah susah dan kadang banyak masalah. Untuk itulah, terkadang hidup hanya perlu ditertawakan saja.",
+"Hanya karena kamu benar, bukan berarti aku salah. Kamu hanya belum pernah hidup di posisiku.",
+ "Cantik itu relatif, tergantung letak kamera dan intensitas cahaya.",
+"Lembaran uang itu bukan segalanya. Masih ada kartu kredit dan yang lainnya.",
+ "Makanan semahal apa pun tidak akan terasa mahal jika tidak dibeli.",
+"Manusia boleh berencana, tapi saldo juga yang menentukan.",
+"Kenapa move on itu susah? Karena dari SD sampai sekarang yang dipelajari adalah menghafal atau mengingat bukan melupakan.",
+"Contohlah tukang parkir. Meskipun punya banyak mobil, ia tak pernah sombong karena tahu itu semua hanya titipan.",
+ "Jika ada orang yang menyebutmu jelek. Jangan putus asa. Karena belum tentu orang itu bohong.",
+ "Jika ada seseorang yang meledekmu jelek, santai saja. Bilang padanya kalau kamu bukan cermin.",
+ "Lagi konsen cari uang, buat beli nasi padang. Sisanya buat beli pajero sport.",
+ "Motivasi tidak akan bertahan lama. Mandi juga tidak bertahan lama. Itulah alasan mengapa kami menganjurkannya setiap hari.",
+"Ada yang tidak bisa dibeli di dunia ini yaitu kesehatan, kebahagiaan, dan sinyal HP.",
+"Selalu ikuti kata hatimu. Tapi jangan lupa bawa juga otakmu.",
+"Katanya habis gelap terbitlah terang. Ternyata, kalau belum terang, belum mau pulang.",
+ "Orang bodoh lebih mudah bahagia, dengan kebodohannya.",
+"Setinggi-tingginya bangau terbang. Akhirnya akan jadi kecap juga.",
+
+"Saya tidak bisa mengubah arah angin, namun saya bisa menyesuaikan pelayaran saya untuk selalu menggapai tujuan saya.",
+"Tanpa sasaran dan rencana meraihnya, kamu seperti kapal yang berlayar tanpa tujuan.",
+"Banyak orang gagal dalam kehidupan, bukan karena kurangnya kemampuan, pengetahuan, atau keberanian, namun hanya karena mereka tidak pernah mengatur energinya pada sasaran.",
+"Jika kamu ingin bahagia, tetapkan sasaran yang membangkitkan pikiran, membebaskan energi, dan menginspirasi harapanmu.",
+"Tindakan menyalahkan hanya akan membuang waktu. Sebesar apapun kesalahan yang kamu timpakan ke orang lain, dan sebesar apapun kamu menyalahkannya, hal tersebut tidak akan mengubahmu.",
+"Jangan tanyakan pada dirimu apa yang dibutuhkan dunia. Bertanyalah apa yang membuat kamu merasa hidup, kemudian kerjakan. Karena yang dibutuhkan dunia adalah orang yang antusias." ,
+"Janganlah menganggap remeh hal-hal yang terdekat dengan hatimu. Rangkullah mereka seperti sama berharganya dengan hidupmu, karena tanpa mereka hidup adalah sia-sia." ,
+ "Perubahan itu menyakitkan, Ia menyebabkan orang merasa tidak aman, bingung, dan marah. Orang menginginkan hal seperti sediakala, karena mereka ingin hidup yang mudah." ,
+"Orang yang lemah tidak mampu memaafkan. Memaafkan adalah ciri orang yang kuat.",
+"Cara paling mendasar dan kuat untuk terhubung dengan orang lain adalah dengan mendengarkan. Cukup Dengarkan. Mungkin hal terpenting yang bisa kita berikan kepada orang lain adalah perhatian kita." ,
+"Ingat, ini hanya hari yang buruk, bukan kehidupan yang buruk.",
+"Apapun dirimu, jadilah yang terbaik." ,
+"Pikiran yang baik dan hati yang baik selalu merupakan kombinasi yang hebat." ,
+"Satu-satunya cara untuk mencapai yang tidak mungkin adalah percaya bahwa itu mungkin." ,
+"Aku tidak tahu semua yang mungkin akan datang, tetapi apa pun yang akan terjadi, aku akan melakukannya sambil tertawa." ,
+"Jangan biarkan rasa takut kalah lebih besar daripada kegembiraan saat menang." ,
+"Ketika memiliki mimpi, kamu harus meraihnya dan tidak pernah melepaskannya.",
+ "Tidak ada yang tidak mungkin. Kata itu sendiri mengatakan 'Saya mungkin!'",
+"Tidak ada yang tidak mungkin bagi mereka yang mau berusaha.",
+"Kabar buruknya adalah waktu berlalu begitu saja. Kabar baiknya adalah kamu adalah pilotnya.",
+"Hidup memiliki semua tikungan dan belokan itu. Kamu harus berpegangan erat-erat dan pergilah.",
+"Tetap menghadapkan wajah selalu ke arah sinar matahari, dan bayangan akan jatuh di belakangmu.",
+ "Kamu tidak selalu membutuhkan rencana. Terkadang kamu hanya perlu bernapas, percaya, melepaskan dan melihat apa yang terjadi.",
+ "Kamu bisa menjadi segalanya. Kamu bisa menjadi orang yang tidak terbatas jumlahnya. ",
+"Keyakinan menciptakan fakta yang sebenarnya.",
+"Orang yang memiliki sasaran sukses karena mereka tahu ke mana akan pergi.",
+ "Ambillah risiko yang lebih besar dari apa yang dipikirkan orang lain aman. Berilah perhatian lebih dari apa yang orang lain pikir bijak. Bermimpilah lebih dari apa yang orang lain pikir masuk akal.",
+"Satu-satunya batasan untuk meraih mimpi kita adalah keragu-raguan kita akan hari ini. Marilah kita maju dengan keyakinan yang aktif dan kuat.",
+"Seperti bergulat melawan seekor gorila. Kamu tidak akan berhenti ketika lelah, kamu berhenti ketika gorila tersebut lelah.",
+"Sebuah permata tidak akan dapat dipoles tanpa gesekan, demikian juga seseorang tidak akan menjadi sukses tanpa tantangan.",
+ "Jika kamu menginginkan sesuatu yang belum pernah dimiliki dalam hidupmu. Kamu harus melakukan sesuatu yang belum pernah dilakukan sebelumnya.",
+"Bangun dan wujudkan mimpimu atau orang lain akan memperkerjakanmu untuk membangun mimpi mereka.",
+"Kesuksesan tidak menemukamu karena kamu yang harus keluar dan meraihnya.",
+"Seorang pemenang adalah pemimpi yang tidak pernah menyerah.",
+"Semua mimpi kita bisa jadi kenyataan, jika kita memiliki keberanian untuk mengejarnya.",
+"Sukses bukanlah akhir, kegagalan bukanlah fatal, yang terpenting adalah keberanian untuk melanjutkan.",
+"Orang yang memiliki sasaran akan menjadi sukses karena mereka tahu ke mana akan pergi.",
+ "Saya tidak bisa mengubah arah angin, namun saya bisa menyesuaikan pelayaran saya untuk selalu menggapai tujuan saya.",
+ "Gagal itu makanan sehari-hari. Itu biasa, yang penting bagimana kamu menyikapinya. Evaluasi. Bangkit. Gagal lagi? Bangkit lagi!",
+"Jika tindakanmu menginspirasi orang lain untuk bermimpi lebih banyak, belajar lebih banyak, berbuat lebih banyak, dan menjadi lebih sukses, kamu adalah seorang pemimpin.",
+"Jangan pernah bermimpi untuk sukses, tapi kerjakan sesuatu untuk meraih kesuksesan." ,
+ "Kesuksesan bersumber dari perbuatan. Orang yang sukses terus melakukan usaha. Orang sukses bahkan membuat kesalahan, namun mereka tidak berhenti usaha.",
+ "Jalan menuju sukses dan jalan menuju kegagalan hampir persis sama.",
+ "Kita tidak bisa memecahkan masalah dengan cara berpikir yang kita gunakan ketika kita menemukan masalah itu." ,
+"Belajarlah seolah-olah kamu akan hidup selamanya, hiduplah seolah-olah kamu akan mati besok.",
+"Jauhi orang-orang yang mencoba meremehkan ambisimu. Pikiran kecil akan selalu melakukan itu, tetapi pikiran besar akan memberi perasaan bahwa kamu juga bisa menjadi hebat.",
+"Ketika memberikan kegembiraan kepada orang lain, kamu mendapatkan lebih banyak kegembiraan sebagai balasannya. Kamu harus memikirkan kebahagiaan yang bisa kamu berikan.",
+ "Ketika kamu mengubah pikiran, ingatlah untuk juga mengubah duniamu juga.",
+ "Hanya ketika kita mengambil peluang, ketika hidup kita membaik. Risiko awal dan paling sulit yang perlu kita ambil adalah menjadi jujur.",
+"Pendidikan bukan cuma pergi ke sekolah dan mendapatkan gelar. Tapi, juga soal memperluas pengetahuan dan menyerap ilmu kehidupan.",
+"Janganlah pernah menyerah ketika kamu masih mampu berusaha lagi. Tidak ada kata berakhir sampai kamu berhenti mencoba.",
+"Pertama kita membentuk kebiasaan dan kebiasaan akan membentuk kita. Kalahkan kebiasaan burumu, atau mereka akan mengalahkanmu dengan mudah.",
+"Jangan menyerah. Hal-hal besar membutuhkan waktu. Bersabarlah.",
+"Optimisme adalah iman yang menuntunmu ke pencapaian." ,
+"Kamu hanya gagal saat kamu berhenti mencoba.",
+"Jika kamu tidak pernah gagal, kamu tidak akan pernah mencoba apapun yang baru.",
+"Sulit untuk mengalahkan orang yang tidak pernah menyerah.",
+"Belajar tidak pernah melelahkan pikiran.",
+"Berjuang sampai napas terakhir.",
+"Jika kamu benar-benar menginginkan sesuatu, jangan menunggu untuk itu – ajari dirimu untuk tidak sabar.",
+"​Sukses adalah jumlah dari usaha-usaha kecil, berulang-ulang hari demi hari." ,
+"Bila memiliki banyak harta, kita akan menjaga harta. Namun, jika memiliki banyak ilmu, maka ilmulah yang akan menjaga kita.",
+"Pendidikan adalah senjata paling ampuh yang bisa digunakan untuk mengubah dunia.",
+"Pembelajaran tidak didapat dengan kebetulan. Ia harus dicari dengan semangat dan disimak dengan tekun." ,
+"Orang bijak belajar ketika mereka bisa. Orang bodoh belajar ketika mereka terpaksa.",
+"Agama tanpa ilmu adalah buta. Ilmu tanpa agama adalah lumpuh.",
+"Masa depan memang tak pasti, tapi kalo kita belajar dengan bekerja keras, kita akan sukses.",
+"Barangsiapa tidak mau merasakan pahitnya belajar, ia akan merasakan hinanya kebodohan sepanjang hidupnya." ,
+"Ikhlaslah belajar. Bahkan yang paling berilmu dan bijak di antara kita masih rajin belajar.",
+"Guru memang membantu kita dalam membuka pintu, tetapi kita sendirilah yang harus memasukinya.",
+"Hal yang indah tentang belajar adalah tidak ada yang bisa mengambilnya darimu.",
+"Pikiran bukanlah wadah untuk diisi, tetapi api untuk dinyalakan.",
+"Penundaan membuat hal-hal mudah menjadi sulit dan hal-hal sulit menjadi lebih sulit.",
+"Kamu tidak harus hebat untuk memulai, tapi kamu harus memulai untuk menjadi hebat.",
+"Pakar dalam segala hal dulunya adalah seorang pemula.",
+"Motivasi adalah apa yang membuat kamu memulai. Kebiasaan adalah sesuatu yang membuatmu terus maju.",
+ "Dia yang bertanya adalah bodoh selama 5 menit; dia yang tidak bertanya akan tetap bodoh selamanya." ,
+"Keraguan membunuh lebih banyak mimpi daripada kegagalan.",
+"Semakin banyak kamu membaca, semakin banyak hal yang akan kamu ketahui, semakin banyak yang kamu pelajari, semakin banyak tempat yang akan kamu kunjungi." ,
+"Aku tidak terlalu memikirkan orang yang hari ini tidak lebih bijaksana daripada kemarin. ",
+ "Belajar adalah harta karun yang akan mengikuti pemiliknya kemanapun." ,
+"Selalu jalani hidup seolah-olah kamu memiliki sesuatu yang baru untuk dipelajari dan kamu akan melakukannya.",
+"Siapa pun yang berhenti belajar sudah tua, baik pada usia dua puluh atau delapan puluh tahun.",
+"Investasi dalam pengetahuan membayar bunga terbaik.",
+"Satu-satunya orang yang berpendidikan adalah orang yang telah belajar bagaimana belajar dan berubah.",
+"Pikiran manusia, sekali diregangkan oleh ide baru, tidak pernah mendapatkan kembali dimensi aslinya.",
+"Ia yang mengerjakan lebih dari apa yang dibayar pada suatu saat akan dibayar lebih dari apa yang ia kerjakan.",
+"Jangan biarkan opini orang lain menenggelamkan suara dari dalam dirimu.",
+"Mulai setiap harimu dengan pikiran positif dan hati yang bersyukur."
+"Jika kita terus melakukan apa yang kita lakukan, kita juga terus akan mendapatkan apa yang kita dapatkan." ,
+"Jangan batasi tantanganmu, tapi tantang batasmu.",
+"Pikirkan banyak hal, lakukan satu." ,
+"Kualitas berarti melakukan sesuatu dengan benar saat tidak ada yang melihat." ,
+"Prajurit yang sukses adalah orang biasa, dengan fokus seperti laser.",
+"Bekerjalah lebih banyak dari orang lain karena usaha tidak pernah membohongi hasil.",
+"Seseorang akan menjadi hebat jika dan hanya ia berusaha sesuai dengan apa yang ia minati.",
+"Bekerja keras. Lakukan yang terbaik. Simpan kata-katamu. Jangan terlalu sombong. Percaya kepada Tuhan. Jangan takut dan jangan pernah lupakan teman.",
+"Bekerjalah saat waktunya bekerja, bermainlah saat waktunya bermain. Hal tersebut adalah aturan dasar dari kedisiplinan diri yang represif.",
+"Kecerdasan adalah kemampuan beradaptasi terhadap perubahan." ,
+"Jangan menilai setiap hari berdasarkan panen yang kamu tuai, tetapi berdasarkan benih yang kamu tanam.",
+ "Semua kemajuan terjadi di luar zona nyaman.",
+"Satu-satunya cara untuk melakukan pekerjaan yang hebat adalah dengan mencintai apa yang kamu lakukan." ,
+"Jadikan setiap hari mahakaryamu.",
+"Kamu mungkin harus bertarung lebih dari sekali untuk memenangkannya.",
+ "Jangan biarkan apa yang tidak dapat kamu lakukan mengganggu apa yang dapat kamu lakukan." ,
+ "Kerjakan pekerjaan yang sulit terlebih dahulu. Pekerjaan mudah akan mengurus diri mereka sendiri." ,
+ "Mengembangkan etos kerja yang baik adalah kuncinya. Terapkan dirimu pada apa pun yang kamu lakukan, apakah kamu seorang petugas kebersihan atau seseorang yang baru pertama kali bekerja pada saat musim panas, etos kerja itu akan tercermin dalam semua yang kamu lakukan dalam hidup.",
+ "Kita harus percaya bahwa kita dikaruniai sesuatu dan hal ini harus dicapai.",
+"Kualitas adalah pekerjaan pertama.",
+"Kegagalan adalah bumbu yang memberi rasa keberhasilan." ,
+"Selama niatnya baik, kesalahan bukan untuk memalukan, tetapi untuk dipelajari.",
+ "Pekerjaan besar biasanya diberikan kepada orang-orang yang membuktikan kemampuan mereka melebihi pekerjaan kecil.",
+"Bekerja keras, bersikap baik, dan hal-hal menakjubkan akan terjadi.",
+"Jangan pernah menyerah pada mimpi hanya karena waktu yang dibutuhkan untuk mencapainya. Bagaimanapun waktu akan berlalu.",
   ]
 
            
 @bot.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
-    await message.reply(f"Selamat bermain dan selamat bersenang - senang\n\nJangan lupa subs @{CHANNEL} dan contact @{OWNER} untuk info lainnya.\n\nBy : @gendhis_gemooy")
+    await message.reply(f"<b>Selamat bermain bersama Gendhis</b>\n\nJangan lupa subs @{CHANNEL} dan contact @{OWNER} untuk info lainnya.\n\nMaintenance : @gendhis_gemooy")
     
 @bot.on_message(filters.command("help"))
 async def help_message(client: Client, message: Message):
-    await message.reply("/bucin - bucin dulu\n/renungan - renungan dulu\n/donasi - donasi ke owner bot\n/request - request kamu")
+    await message.reply("/gombal - gombal dulu\n/motivasi - motivasi dulu\n/donasi - donasi ke owner bot\n/request - request kamu")
 
     
-@bot.on_message(filters.command("bucin"))
-async def bucin(client: Client, message: Message):
+@bot.on_message(filters.command("gombal"))
+async def gombal(client: Client, message: Message):
     await message.reply(choice(BUCIN))
     
     
-@bot.on_message(filters.command("renungan"))
-async def renungan(client: Client, message: Message):
-    await message.reply(choice(RENUNGAN))    
+@bot.on_message(filters.command("motivasi"))
+async def motivasi(client: Client, message: Message):
+    await message.reply(choice(MOTIVASI))    
     
 @bot.on_message(filters.command("donasi"))
 async def donasi(client: Client, message: Message):
-    await message.reply(f"Yuk Support Bot Gendhis Dengan Cara Donasi\nDukung Gendhis Bot agar dapat selalu berkembang dan dapat membayar biaya server bot dengan cara donasi. sedikit bantuan dari anda sangat berharga.\ncontact : @{OWNER}")
+    await message.reply(f"<b>Yuk Support Bot Gendhis Dengan Cara Donasi</b>\n\nDukung Bot Gendhis agar dapat selalu berkembang dan dapat membayar biaya server bot dengan cara donasi. sedikit bantuan dari anda sangat berharga.\n\n<b>contact</b> : @{OWNER}")
     
 @bot.on_message(filters.command("request"))
 async def request(client: Client, message: Message):
@@ -466,10 +664,7 @@ async def request(client: Client, message: Message):
     await message.reply("Terimakasih telah berkontribusi untuk kami")
     
     
-    @bot.on_message(filters.command("repo"))
-async def repos(client: Client, message: Message):
-    await message.reply(choice(MOTIVASI))
-    
+   
 
 
 bot.run()
