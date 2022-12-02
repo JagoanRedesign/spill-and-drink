@@ -417,6 +417,21 @@ RENUNGAN = [
   "Pahlawan itu kan mereka yang berjuang buat negara, berarti aku juga pahlawan dong, soalnya merjuangin masa depan kita",
   "Kamu itu kayak pahlawan ya, hebat meruntuhkan pertahanan hatiku",
   ]
+  
+  # motivasi text
+MOTIVASI = [
+  "Orang bilang jadi penyair itu susah Nggak Mereka belum jatuh cinta aja",
+  "Kalau misal aku lahir seribu tahun yang lalu, aku pasti akan tetap menunggumu",
+  "Kamu tau gak, kenapa kalo belajar menghafal aku selalu melihat ke atas? Soalnya kalo merem langsung kebayang wajah kamu",
+  "Aneh rasanya bagaimana dengan hanya mendengar namamu saja, hatiku bisa tersayat teriris ngilu seperti luka basah yang tersiram cuka?",
+  "Kalau jadi ksatria itu gampang Yang susah itu jadi pahlawan hati kamu",
+  "Kalau pahlawan punya baju besi, aku nggak Soalnya aku rela tertusuk cinta kamu",
+  "Ketika kamu telah membuatnya bahagia dan dia masih memilih orang lain, yakinlah Mungkin kamu belum kaya!",
+  "Kamu seperti pensil warna deh, bisa mewarnai hari-hariku",
+  "Kalo kamu bidadari, akan kupatahkan semua sayapmu karena aku gak rela kamu kembali ke surga",
+  "Pahlawan itu kan mereka yang berjuang buat negara, berarti aku juga pahlawan dong, soalnya merjuangin masa depan kita",
+  "Kamu itu kayak pahlawan ya, hebat meruntuhkan pertahanan hatiku",
+  ]
 
            
 @bot.on_message(filters.command("start"))
@@ -449,6 +464,10 @@ async def request(client: Client, message: Message):
     kontol = " ".join(mmk)
     await bot.send_message(LOG_CHAT, f"{message.from_user.mention}\nPesan: `{kontol}`")
     await message.reply("Terimakasih telah berkontribusi untuk kami")
+    
+    @bot.on_message(filters.command("motivasi"))
+async def motivasi(client: Client, message: Message):
+    await message.reply(choice(MOTIVASI))
     
 
 
