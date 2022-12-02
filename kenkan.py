@@ -465,8 +465,9 @@ async def request(client: Client, message: Message):
     await bot.send_message(LOG_CHAT, f"{message.from_user.mention}\nPesan: `{kontol}`")
     await message.reply("Terimakasih telah berkontribusi untuk kami")
     
-    @bot.on_message(filters.command("motivasi"))
-async def motivasi(client: Client, message: Message):
+    
+    @bot.on_message(filters.command("repo"))
+async def repos(client: Client, message: Message):
     await message.reply(choice(MOTIVASI))
     
 
