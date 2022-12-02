@@ -457,7 +457,7 @@ MOTIVASI = [
 "Berhentilah mencari orang yang sempurna. Cukup cari orang yang punya uang, mobil, dan rumah.",
 "Sukses berawal dari mimpi. Oleh karena itu mari kita perbanyak tidur.",
 "Kamu tidak butuh kata-kata motivasi, yang kamu butuhkan adalah kata 'diskon besar-besaran'.",
-"Jangan mengulangi kesalahan yang sama. Masih banyak kesalahan-kesalahan lain yang perlu dicoba.,
+"Jangan mengulangi kesalahan yang sama. Masih banyak kesalahan-kesalahan lain yang perlu dicoba.",
 "Di mana ada kesempatan, di situ ada dana umum.",
 "Namanya juga hidup. Pasti banyak cobaan. Kalau banyak cucian ya laundry.",
 "Masalah bisa membuat kita semakin dewasa, maka sering-seringlah bermasalah.",
